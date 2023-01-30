@@ -1,0 +1,151 @@
+timings : 
+8.20 to 10.20
+10.40 to 12.40
+1.30 to 4.10
+1. Download JDK - Java Development Kit
+Step 1 . download jdk 17 for windows
+Step 2 . https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
+Step 3 . Download and install
+Windows x64 MSI Installer
+
+Step 4. Download eclipse
+https://www.eclipse.org/downloads/
+
+Online editor
+
+onlinegdb
+www.onlinegdb.com
+
+download eclipse
+
+Step 5 : create a java project
+
+File - > New -> Others - >Java Project
+
+Enter name of the project - javabasics
+
+src folder - right click - > class
+HelloWorld_1
+
+creates java program
+
+HelloWorld_1.java
+
+JDK - 
+JRE - Java Runtime Environment
+
+
+javac HelloWorld_1.java
+HelloWorld_1.class - Byte code
+
+Java - cross platform
+
+java HelloWorld_1
+Welcome to java
+
+Data types - premative data types/basic
+
+Numeric data types - byte,short,int,long
+float,double
+char
+
+boolean - true,false
+
+String
+
+Array
+Class
+
+Surendra Babu - 9900272139
+
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+	}
+}
+
+
+Write a function to calculate discount and net amount to pay
+as per the sales announcement made in a shopping complex
+
+Purchase_amt <=10000 discount rate = 10 %
+Purchase_amt >10000  <=20000 discount rate = 20 %
+Purchase_amt >20000  discount rate = 30 %
+
+sample calculation:
+
+purchase_amt = 10000
+discount_rate=.1
+discount = purchase_amt*discount_rate = 1000
+net_amt = purchase_amt -discount = 9000
+
+Object Oriented Programming
+
+Class  - property and functionality
+
+and Object - instance of a class
+
+
+interface 
+implementation class
+
+Oops
+
+Inheritance - extends - done
+Polymorphism - method overload - same class - done
+multiple methods with same name
+method override - parent and child - done
+Data binding - private,public,protected,default
+Abstraction - interface, abstract class
+
+1. Install jdk
+2. JAVA_HOME=C:\Program Files\Java\jdk-17.0.5
+
+
+Android studio
+
+New->New Project
+
+No Activity
+
+app
+manifest->AndroidManifest.xml
+java
+res
+
+java
+com.reva.androidbasic
+Right Click
+New - Activity->Empty Activity
+
+MainActivity.java
+
+www.javatpoint.com
+android
+
+
+Assignment :
+
+1. Write a program to calculate electricitybill
+as per the details given below
+
+upto 100 units of consumption - 1 Rs/unit
+>100 <=200 units of consumption - 2 Rs/unit
+>200 units of consumption - 5 Rs/Unit
+Calculation is cumulative
+
+Sample : calculation
+
+units consumed - 50 - 50 X 1 = 50
+units consumed - 150- 100 X 1 + 50 X 2 = 200
+
+
+
+
+
+
+
+
+
+
