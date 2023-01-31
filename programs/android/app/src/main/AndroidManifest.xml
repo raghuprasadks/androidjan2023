@@ -11,9 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Androidbasics"
         tools:targetApi="31">
-
         <activity
-            android:name=".MainActivity_EnhancedSignUp_4"
+            android:name=".MainActivity_AutoComplete_5"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
