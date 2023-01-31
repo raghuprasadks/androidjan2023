@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -10,9 +12,14 @@
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Enhanced Sign Up" />
+            android:layout_gravity="center"
+            android:background="#FFC107"
+            android:text="Enhanced Sign Up"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView3"
@@ -37,7 +44,7 @@
         <RadioGroup
             android:id="@+id/sex"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="137dp"
             android:gravity="center_horizontal|fill_horizontal">
 
             <RadioButton
@@ -53,11 +60,60 @@
                 android:text="Female" />
 
         </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Qualification" />
+
+        <CheckBox
+            android:id="@+id/checkBoxUG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UG" />
+
+        <CheckBox
+            android:id="@+id/checkBoxPG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PG" />
+
+        <CheckBox
+            android:id="@+id/checkBoxOthers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Others" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <!-- Inside text input layout add
+                  an auto complete text view
+                    and make its input type to none-->
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:inputType="none"
+                android:text="Choose Programming language"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/enhancedsignup"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:baselineAligned="false"
+            android:text="Sign Up" />
     </LinearLayout>
 
-    <Button
-        android:id="@+id/enhancedsignup"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Sign Up" />
 </androidx.constraintlayout.widget.ConstraintLayout>
