@@ -1,0 +1,21 @@
+Agenada:
+
+1. Verifying installation of Android studio
+2. Sample programs
+
+developer option oppo
+
+http://www.kaushalya.tech/
+click on git
+respositories
+androidjan2023
+
+<activity
+            android:name=".MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
