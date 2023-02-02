@@ -1,1 +1,5 @@
 Simple Calculator Assignment
+
+https://sqlitebrowser.org/dl/
+
+API - Application Programming Interface
